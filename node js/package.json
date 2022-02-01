@@ -2,7 +2,7 @@
   "name": "node-js",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "dev": "SET NODE_ENV=development && nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,8 @@
   "author": "Winnie",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^2.0.15"
+    "chalk": "^2.4.1",
+    "nodemon": "^2.0.15",
+    "validator": "^13.7.0"
   }
 }
